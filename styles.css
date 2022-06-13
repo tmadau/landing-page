@@ -2,10 +2,11 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 body {
-    background-image: url('./img/cover-page-1.jpg');
+    background-image: url('./img/cover-page.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,6 +16,7 @@ nav {
     background-color: black;
     padding: 10px;
     box-shadow: white 0px 20px 30px -10px;
+    opacity: 1;
 }
 ul {
     display: flex;
@@ -32,7 +34,44 @@ li {
     color: white;
 }
 .nav-link:hover, .nav-link:active, .nav-link:visited {
-    text-shadow: 1px 1px 2px red, 0 0 1em red, 0 0 0.2em white;
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
     transition: 0.1s;
     border-bottom: solid 3px white;
+}
+.hero-section {
+    height: 700px;
+    background-color: black;
+    opacity: .7;
+}
+button {
+    display: block;
+    padding: 15px 25px;
+    border: solid 3px white;
+    background-color: #3882f6;
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: large;
+}
+button:hover {
+    background-color: blue;
+    border: solid 3px #3882f6;
+    padding: 20px 30px;
+    transition: .2s;
+    text-shadow: 2px 2px 3px black, 0 0 1em white, 0 0 0.2em white;
+}
+.quote-section {
+    height: 200px;
+    background-color: black;
+}
+.cta-section {
+    height: 500px;
+    background-color: black;
+    margin: 70px;
+    border-radius: 10px;
+}
+footer {
+    height: 100px;
+    font-size: 12px;
+    background-color: black;
+    text-align: center;
 }
