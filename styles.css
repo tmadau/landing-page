@@ -52,7 +52,6 @@ body {
 .navbar ul li a:hover, .navbar ul li a:active, .navbar ul li a:visited {
     text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
     transition: 0.1s;
-    opacity: 1;
 }
 /* Hero/Header Section Styling */
 .header {
@@ -65,21 +64,24 @@ body {
     font-size: 48px;
     line-height: 1;
     margin-bottom: 10px;
+    font-weight: bolder;
 }
 button {
     padding: 12px 22px;
     margin: 15px 0;
-    border: solid 3px white;
+    border: solid 4px white;
     background-color: #3882f6;
     border-radius: 7px;
     font-weight: bold;
     font-size: large;
 }
 button:hover {
-    background-color: blue;
-    border: solid 3px #3882f6;
-    transition: .2s;
-    text-shadow: 2px 2px 3px black, 0 0 1em white, 0 0 0.2em white;
+    transition: .1s;
+    border: solid 4px #3883f6;
+    box-shadow: 5px 0px 105px -24px rgba(255,0,0,0.92);
+    -webkit-box-shadow: 5px 0px 105px -24px rgba(255,0,0,0.92);
+    -moz-box-shadow: 5px 0px 105px -24px rgba(255,0,0,0.92);
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
 }
 .header img {
     max-width: 670px;
@@ -93,7 +95,8 @@ button:hover {
 }
 /* Box Images Style Section */
 .boxes h2 {
-    font-size: 2rem;
+    font-size: 36px;
+    font-weight: bolder;
     text-align: center;
     max-width: 1300px;
     margin: 40px auto;
@@ -101,19 +104,46 @@ button:hover {
 .boxes .container {
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 figure img {
     border-radius: 18px;
-    border: solid 3px white;
+    border: solid 4px white;
     height: 250px;
+}
+figure img:hover {
+    transition: .1s;
+    border: solid 0px red;
+    box-shadow: 5px 0px 105px -24px rgba(255,0,0,0.92);
+    -webkit-box-shadow: 5px 0px 105px -24px rgba(255,0,0,0.92);
+    -moz-box-shadow: 5px 0px 105px -24px rgba(255,0,0,0.92);
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;  
+}
+.boxes .container a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.boxes .container a:hover {
+    transition: .1s;
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
 }
 figcaption {
     text-align: center;
 }
+/* Footer Styling Section */
 footer {
     padding: 8px;
     font-size: 15px;
     font-weight: normal;
     background-color: #0d1334;
     text-align: center;
+}
+footer a {
+    text-decoration: none;
+    font-size: 15px;
+}
+footer a:hover {
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
+    transition: 0.1s;
+    font-size: 15px;
 }
