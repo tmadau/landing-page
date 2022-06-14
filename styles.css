@@ -105,7 +105,7 @@ button:hover {
     text-decoration: none;
 }
 figure img {
-    border-radius: 18px;
+    border-radius: 15px;
     border: solid 4px white;
     height: 250px;
 }
@@ -138,8 +138,22 @@ figcaption {
 .quotation .container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 70px auto;
+    font-weight: bold;
+}
+/* Call to action section styling */
+.bg-btn {
+    background-color: #004aad;
+    opacity: .9;
+    margin: 40px 350px;
+    padding: 30px 30px;
+    border-radius: 15px;
+}
+.bg-btn .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Footer Styling Section */
 footer {
