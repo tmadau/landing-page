@@ -57,6 +57,9 @@ body {
     margin: 10px 0;
     padding: 40px 40px;
 }
+.header .container div {
+    margin-right: 30px;
+}
 .header h1 {
     font-size: 48px;
     line-height: 1;
@@ -97,7 +100,7 @@ button:hover {
     font-weight: bolder;
     text-align: center;
     max-width: 1300px;
-    margin: 40px auto;
+    margin: 90px auto;
 }
 .boxes .container {
     display: flex;
@@ -132,28 +135,39 @@ figcaption {
 .quotation {
     background-color: #0d1334;
     opacity: .9;
-    margin: 10px 0;
+    margin: 70px 0;
     padding: 40px 40px;
 }
 .quotation .container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 70px auto;
-    font-weight: bold;
+    margin: 90px auto;
+}
+.quotation .container div p {
+    font-size: 36px;
 }
 /* Call to action section styling */
 .bg-btn {
     background-color: #004aad;
     opacity: .9;
-    margin: 40px 350px;
+    margin: 90px 350px;
     padding: 30px 30px;
     border-radius: 15px;
 }
 .bg-btn .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+}
+.bg-btn .container div h3 {
+    font-size: 36px;
+}
+.quotation .container p:last-child {
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: right;
 }
 /* Footer Styling Section */
 footer {
