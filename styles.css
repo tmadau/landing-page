@@ -147,6 +147,12 @@ figcaption {
 .quotation .container div p {
     font-size: 36px;
 }
+.quotation .container p:last-child {
+    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
+    margin-top: 10px;
+    font-style: italic;
+    text-align: right;
+}
 /* Call to action section styling */
 .bg-btn {
     background-color: #004aad;
@@ -162,12 +168,6 @@ figcaption {
 }
 .bg-btn .container div h3 {
     font-size: 36px;
-}
-.quotation .container p:last-child {
-    text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
-    margin-top: 10px;
-    font-style: italic;
-    text-align: right;
 }
 /* Footer Styling Section */
 footer {
@@ -185,4 +185,38 @@ footer a:hover {
     text-shadow: 1px 1px 2px red, 0 0 1em white, 0 0 0.2em white;
     transition: 0.1s;
     font-size: 15px;
+}
+/* Responsive layout */
+@media(max-width: 768px) {
+/* Navigation Bar responsiveness */
+    .navbar .container {
+        margin: 0 auto;
+        display: block;
+    }
+    .navbar ul {
+        display: block;
+    }
+/* Hero/Header responsiveness */
+    .header .container {
+        display: block;
+        text-align: center;
+    }
+    .header .container img {
+        width: 280px;
+    }
+/* Box Images responsiveness */
+    .boxes .container {
+        display: block;
+        margin: 0 auto;
+    }
+/* Quotation responsiveness */
+    .quotation .container {
+        display: block;
+    }
+/* Call to action responsiveness */
+    .bg-btn .container {
+        display: block;
+        clear: all;
+        margin: 0 !important;
+    }
 }
