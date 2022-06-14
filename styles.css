@@ -20,9 +20,6 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
-/* img {
-    width: 100%;
-} */
 /* Navigation Bar & Links Styling */
 .navbar {
     background-color: #0d1334;
@@ -86,6 +83,7 @@ button:hover {
 .header img {
     max-width: 670px;
     border-radius: 15px;
+    border: solid 4px white;
 }
 .header .container {
     display: flex;
@@ -129,6 +127,19 @@ figure img:hover {
 }
 figcaption {
     text-align: center;
+}
+/* Quotation Styling Section */
+.quotation {
+    background-color: #0d1334;
+    opacity: .9;
+    margin: 10px 0;
+    padding: 40px 40px;
+}
+.quotation .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px auto;
 }
 /* Footer Styling Section */
 footer {
